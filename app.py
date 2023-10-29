@@ -8,7 +8,7 @@ st.title("Sentiment Analysis with 🤗 x Gradio x streamlit ")
 user_input = st.text_area("Enter text for sentiment analysis 🔥🔥🔥")
 
 # gradio client ka api end point from hugging face spaces
-gradio_client = Client("https://internettrashh-sentiment-analysis.hf.space/--replicas/88zjj/")
+gradio_client = Client("https://internettrashh-sentiment-analysis.hf.space/--replicas/tqf57/")
 
 
 # Function to make the API call
