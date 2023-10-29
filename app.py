@@ -38,5 +38,5 @@ if st.button("Analyze Sentiment"):
             st.text(f"Score🫠: {score}")
 
 
-    st.subheader("Head over to the GitHub repo for the source code and more info about this project👇")
-    st.markdown("[GitHub](https://github.com/internettrashh)")
+    st.subheader("Check out the GitHub repo for the source code and more info about this project👇")
+    st.markdown("[GitHub](https://github.com/internettrashh/sentiment-analysis)")
