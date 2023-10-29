@@ -34,8 +34,8 @@ if st.button("Analyze Sentiment"):
         label, score = analyze_sentiment(user_input)
         if label is not None and score is not None:
             st.subheader("Analysis Result:")
-            st.text(f"Label: {label}")
-            st.text(f"Score: {score}")
+            st.text(f"Sentiment👉: {label}")
+            st.text(f"Score🫠: {score}")
 
 
     st.subheader("Head over to the GitHub repo for the source code and more info about this project👇")
